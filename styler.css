@@ -1,0 +1,81 @@
+body{  
+    margin: auto;
+    padding: 50px;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    background-color: lightgoldenrodyellow; /* light golden yellow */
+}
+
+h1{
+  font-size: 300%;
+}
+
+.box {
+  padding: 20px;
+  border-radius: 10px;
+ 
+}
+
+/* ---- Set up site grid ---- */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 300px 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "logo banner banner"
+        "nav nav nav"
+        "main main side"
+        "footer footer footer";
+    grid-gap: 4px;
+  
+}
+
+/* borders for all the boxs*/
+
+.banner, .nav, .main, .side, .footer, .logo {
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: rebeccapurple; /* dark purple nearly black */
+} 
+
+.banner {
+  grid-area: banner;
+  background-color:rgb(170, 65, 65); /* darkened red */
+  color: #fff;                      /* white */
+ 
+}
+
+.nav {
+  grid-area: nav;
+  background-color: rgb(247, 232, 100); /* lightened yellow */
+  
+}
+
+.main {
+  grid-area: main;
+  background-color: rgb(255, 163, 165); /* light red */
+  
+}
+.footer {
+  grid-area: footer;
+  background-color: rgb(114, 26, 20); /* red but too the point where it is to dark */
+  text-align: right;
+  
+}
+
+.side {
+  grid-area: side;
+  background-color: rgb(220, 250, 100); /* lime yellow with a hint of green */
+  color: #000;
+  
+}
+
+
+.logo {
+    grid-area: logo;
+    padding: 0;
+    height: 199px;
+    width: 300px;
+    background-image: url(Images/logo_v2.png);
+}
