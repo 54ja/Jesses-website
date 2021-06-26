@@ -1,9 +1,5 @@
 <?php include("head_nav.html"); ?>
 
-      
-      <div class="box banner">
-      <h1> Mahurangi Art </h1>
-      </div><!-- / end of banner  -->
 
     
 

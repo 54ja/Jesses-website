@@ -83,3 +83,23 @@ h1{
     background-color: #203619; /* darkened red */
     background-image: url(imagers/logo-grass.png);
   }
+.img-circle {
+
+border-radius: 50%;
+max-width: 85%;
+height: auto;
+box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.8);
+}
+
+.contact {
+  width: 100%;
+}
+
+
+/* Styling for navagation links */
+
+.nav a {font-weight: bold;}
+.nav a:link, .nav a:visited {color: #36454f;}
+.nav a:hover{color: #013220; text-decoration: none;}
+
+
