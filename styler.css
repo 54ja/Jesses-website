@@ -41,32 +41,35 @@ h1{
 
 .banner {
   grid-area: banner;
-  background-color:rgb(170, 65, 65); /* darkened red */
+  background-color: #203619; /* darkened red */
   color: #fff;                      /* white */
  
 }
 
 .nav {
   grid-area: nav;
-  background-color: rgb(247, 232, 100); /* lightened yellow */
+  background-color: #608557; /* lightened yellow */
+  text-align: center;
+  font-size: 150%;
   
 }
 
 .main {
   grid-area: main;
-  background-color: rgb(255, 163, 165); /* light red */
+  background-color: #BBD7AF; /* light red */
   
 }
 .footer {
   grid-area: footer;
-  background-color: rgb(114, 26, 20); /* red but too the point where it is to dark */
+  background-color: #203619; /* red but too the point where it is to dark */
   text-align: right;
+  color: #fff;
   
 }
 
 .side {
   grid-area: side;
-  background-color: rgb(220, 250, 100); /* lime yellow with a hint of green */
+  background-color: #9EB9B8; /* lime yellow with a hint of green */
   color: #000;
   
 }
@@ -77,6 +80,6 @@ h1{
     padding: 0;
     height: 199px;
     width: 300px;
-    background-image: url(imager/logofade.png);
-}
-
+    background-color: #203619; /* darkened red */
+    background-image: url(imagers/logo-grass.png);
+  }
