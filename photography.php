@@ -3,8 +3,7 @@
 
 <div class="box main">
 	
-<h1>Photography</h1>
-
+	
 </div>
 
 
