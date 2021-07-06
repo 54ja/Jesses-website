@@ -1,8 +1,6 @@
 <?php include("head_nav.html"); ?>
 
 
-    
-
       <div class="box main">
       <h1>Art is cool</h1>
       
@@ -12,6 +10,8 @@
 </div> <!-- / end of main  -->
 
       <div class="box side">side</div> <!-- / end of side  -->
+
+     
       
 
 

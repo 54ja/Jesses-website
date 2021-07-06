@@ -51,7 +51,6 @@ h1{
   background-color: #608557; /* lightened yellow */
   text-align: center;
   font-size: 150%;
-  
 }
 
 .main {
@@ -81,7 +80,7 @@ h1{
     height: 199px;
     width: 300px;
     background-color: #203619; /* darkened red */
-    background-image: url(imagers/logo-grass.png);
+    background-image: url(imagers/logofade.png);
   }
 .img-circle {
 
@@ -96,10 +95,11 @@ box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.8);
 }
 
 
+
 /* Styling for navagation links */
 
 .nav a {font-weight: bold;}
 .nav a:link, .nav a:visited {color: #36454f;}
 .nav a:hover{color: #013220; text-decoration: none;}
 
-
+/* bootstrap :( */
