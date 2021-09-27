@@ -1,117 +1,42 @@
-body{  
-    margin: auto;
-    padding: 50px;
-    color: #000;
-    font-family: 'Lato', sans-serif;
-    background-color: lightgoldenrodyellow; /* light golden yellow */
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: #BBD7AF;
 }
 
-h1{
-  font-size: 300%;
+a {
+  color: #000  !important;
+}
+
+.main {
+    background-color: #BBD7AF;
+}
+
+.side {
+    background-color: #9EB9B8;
+}
+
+.footer {
+background-color: #203619;
+color: beige;
 }
 
 .box {
   padding: 20px;
   border-radius: 10px;
- 
-}
-
-/* ---- Set up site grid ---- */
-
-
-/* borders for all the boxs*/
-
-.banner, .nav, .main, .side, .footer, .logo {
-  border-width: 1.5px;
-  border-style: solid;
-  border-color: rebeccapurple; /* dark purple nearly black */
-} 
-
-.banner {
-  grid-area: banner;
-  background-color: #203619; /* darkened red */
-  color: #fff;                      /* white */
- 
-}
-
-.nav {
-  grid-area: nav;
-  background-color: #608557; /* lightened yellow */
-  text-align: center !important;
-  font-size: 150%;
-}
-
-.main {
-  grid-area: main;
-  background-color: #BBD7AF; /* light red */
-  
-}
-.footer {
-  grid-area: footer;
-  background-color: #203619; /* red but too the point where it is to dark */
-  text-align: right;
-  color: #fff;
-  
-}
-
-.side {
-  grid-area: side;
-  background-color: #9EB9B8; /* lime yellow with a hint of green */
-  color: #000;
-  
-}
-
-
-.logo {
-    grid-area: logo;
-    padding: 0;
-    height: 199px;
-    width: 300px;
-    background-color: #203619; /* darkened red */
-    background-image: url(imagers/logofade.png);
-  }
-.img-circle {
-
-border-radius: 50%;
-max-width: 85%;
-height: auto;
-box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.8);
-}
-
-.contact {
-  width: 100%;
-}
-
-
-
-/* Styling for navagation links */
-
-.nav a {font-weight: bold;}
-.nav a:link, .nav a:visited {color: #36454f;}
-.nav a:hover{color: #013220; text-decoration: none;}
-
-/* bootstrap :( */
-
-.col-sm-9 {
-
-float: right;
 
 }
 
-.col-sm-12 {
-  text-align: center;
-
+.my_img {
+    width: 35%;
 }
 
-
-
-
-/* css for hamburger and header*/
-
+/* header */
 
 .header {
-  background-color: #608557; /* lightened yellow */
+  background-color: #608557;
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  position: fixed;
   width: 100%;
   z-index: 3;
 }
@@ -121,9 +46,20 @@ float: right;
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #fff;
+  background-color: #608557;
 }
 
+.header li a {
+  display: block;
+  padding: 20px 20px;
+  border-right: 1px solid #608557;
+  text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: #f4f4f4;
+}
 
 .header .logo {
   display: block;
@@ -207,6 +143,10 @@ float: right;
   top: 0;
 }
 
+.my_img{
+  	width: 100%;
+  	height: auto;	
+  }
 
 /* 48em = 768px */
 
@@ -225,3 +165,9 @@ float: right;
   .header .menu-icon {
     display: none;
   }
+  
+.my_img{
+  	width: 35%;
+  	height: auto;	
+  }
+}
