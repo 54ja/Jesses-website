@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title></title>
+  <title>Mahurangi Art</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -9,25 +9,52 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
-<body>
+ 
+    <body>
 
-<header class="header">
-  <a href="index.php" class="logo"><img class="my_img" src="imagers/long%20logo%20placeholder.png"></a>
-  <input class="menu-btn" type="checkbox" id="menu-btn" />
-  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-  <ul class="menu">
-    <li><a href="index.php">Home</a></li>
-    <li><a href="painting.php">Painting</a></li>
-    <li><a href="photography.php">Photography</a></li>
-    <li><a href="contact.php">Contact</a></li>
-  </ul>
-</header>
-
-<div class="jumbotron text-center"></div>
-  
-<div class="container">
-  <div class="row">
-  
-
-
-
+<nav class="navbar sticky-top navbar-expand-md navbar-light">
+  <!-- <div class="mx-auto d-sm-flex d-block flex-sm-nowrap"> --> 
+  <a href="index.php"><img class="navbar-brand" src="imagers/png-logo.png"></a>
+  <button class="navbar-toggler mr-left custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="nav navbar-nav navbar-primary w-100 ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.php">
+          <span>Home</span>
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="photography.php">
+          <span>photography</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="painting.php">
+          <span>Artists</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.php">
+          <span>Contact</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="photography.php"><span>Fake Contact</span></a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-secondary flex-row justify-content-center flex-nowrap">
+      <li class="nav-item">
+        <a class="nav-link nav-social-icon" target="_blank" href="https://www.facebook.com/MahurangiCollege/"><i class="fa fa-facebook-square"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-social-icon" target="_blank" href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><i class="fa fa-instagram"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link nav-social-icon" target="_blank" href="https://www.youtube.com/watch?v=xvFZjo5PgG0"><i class="fa fa-soundcloud"></i></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+        
