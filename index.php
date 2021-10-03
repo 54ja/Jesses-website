@@ -20,7 +20,7 @@
 </div>
 </div>
 
-<img src="Images/imagers/mahu.jpg" alt="mahurangi front" style="width:100%">
+<img src="imagers/mahu.jpg" alt="mahurangi front" style="width:100%">
 
         
 <?php include("footer.html");?>
