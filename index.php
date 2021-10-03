@@ -1,17 +1,30 @@
-<?php include("head_nav.html"); ?>
+<?php include("head_nav.html");?>
 
 
-      <div class="box main col-sm-8 ">
-      <h1>Art is cool</h1>
-      
-      <p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>  
-
-</div> <!-- / end of main  -->
-
-      <div class="box side col-sm-4"><p>it is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'.</p>  </div> <!-- / end of side  -->
-
-     
-      
 
 
-   <?php include("footer.html"); ?>
+
+<div class="jumbotron text-center"> 
+ 
+</div>
+
+<div class="about-section">
+  <h2><u>About me</u></h2>
+  
+
+<div class="main text-center">
+  
+<h1>Mahurangi art </h1>
+<h6> My name is Jesse Attwood, and I'm a year 12 student at Mahurangi college. I am the owner of the website Mahurangi art and have created it because I feel that the students here need a way to present the art work they have created. That's when I came up with the idea of creating a website that anyone would be able to use and excess for free to be able to view the artwork. If you have any questions or problems regarding the website, please email through the  <a class="contact h6" href="mailto: ja54@mahurangi.school.nz"><span>Contact</span></a> link at the top or email me at: ja54@mahurangi.school.nz </h6>  
+
+</div>
+</div>
+
+<img src="Images/imagers/mahu.jpg" alt="mahurangi front" style="width:100%">
+
+        
+<?php include("footer.html");?>
+
+
+
+

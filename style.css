@@ -3,21 +3,37 @@ body {
   font-family: Helvetica, sans-serif;
   background-color: #f4f4f4;
 }
-    
+
+/* Bootsrtap carousel */
+ .carousel-inner img {
+    height: 100%;
+    width: 100%;
+  }
+
+
+
+
+
+/* End Bootsrtap carousel */
+
 
 .my_img{
     width: 100%;
     height: auto; 
   }
 
-
-
-/* Nav Bar hover effects */
-
-
+    
 
 /* About page styling */
 
+.body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h2 {
+  color: red;
+}
 
 .about-section {
   padding: 50px;
@@ -37,9 +53,38 @@ body {
 }
 
 .title {
-  color: grey;
+  color: grey !importan; 
 }
 
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+`
+
+.whyus {
+    
+    padding: 10px;
+}
+
+.friend {
+    
+    padding: 10px;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
 
 
 
@@ -136,9 +181,68 @@ body {
 
 
 
+/* Contact styling */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contacting {
+    
+padding: 8px;
+    width: 75%;
+
+}
+
+.contact {
+  color: green; !important;
+}
 
 
 
+.container
+
+{
+    background-color: #474e5d;
+    padding: 40px;
+    
+}
+
+.containerl
+
+{
+  background-color: white;
+padding: 20px
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
 
 .column {
   float: left;
@@ -154,6 +258,22 @@ body {
   clear: both;
 }
 
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+
+
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
 .column {
   float: left;
@@ -188,9 +308,14 @@ body {
   background-color: #555;
 }
 
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
 
-.col-sm-6
-{
+.col-sm-6 {
     
     background-color: #474e5d;
   color: white;
@@ -285,11 +410,198 @@ padding: 50px;
 
 }
 
+.mesa {
+    
+  width: 375px;
+}
+
+
+.pos1 {
+  float: left;
+  width: 48%;
+    padding: 5px;
+}
+
+.pos2 {
+  float: right;
+  width: 48%;
+    padding: 5px;
+  
+}
 
 
 
 
 
+
+
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 11%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+
+
+
+.containermed {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.containermed img {vertical-align: middle;}
+
+.containermed .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+
+.containerhome {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.containerhome img {vertical-align: middle;}
+
+.containerhome .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
 
 
 
@@ -314,28 +626,103 @@ width: 75%;
   margin: 5px;
 }
 
-
+.dom {
     
+width: 250px;    
+ border: 5px solid #474e5d;   
+}
+
+.calm
+
+{
+
+padding: 8px;
+
+}
+
+.calmt
+{
+    
+   font-weight: lighter;  
+}
 
 
 
+
+.time
+
+{
+
+padding: 8px;
+
+}
+
+.timet
+{
+    
+   font-weight: lighter;  
+}
+
+/* Solid border */
+hr.solid {
+  border-top: 4px solid #bbb;
+}
+
+.btna {
+color: #fff;    
+background-color: #7BC342;   
+border-radius: 25px;    
+    width: 900px;
+    padding: 30px
+    
+}
+
+.header2 {
+    
+    font-weight: bold;
+}
+
+.header1 {
+  text-align: center;
+  color: white;
+}
+
+.para {
+    
+    font-weight: lighter;
+}
+
+.BC {
+
+width: 350px;
+border: 5px solid #111;
+padding: 10px;  
+}
+
+
+.vl {
+  border-left: 6px solid #474e5d;
+  height: 500px;
+  position: absolute;
+  left: 0%;
+  margin-left: -3px;
+  top: 0;
+}
+.horiz {
+    
+ border-top: 15px solid #474e5d;  
+    
+}
+
+
+
+/* New Navigation */
 
 /* General */
-a,
-p,
-div,
-span,
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Roboto", sans-serif;
-}
 
 .nav{
   background-color: white;
 }
-
 
 a {
   font-size: 11px;
